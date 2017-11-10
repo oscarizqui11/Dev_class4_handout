@@ -6,6 +6,7 @@
     </LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)Game\</LocalDebuggerWorkingDirectory>
     <LocalDebuggerEnvironment>PATH=%PATH%;$(SolutionDir)Build\</LocalDebuggerEnvironment>
+    <LocalDebuggerSQLDebugging>false</LocalDebuggerSQLDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerAttach>true</LocalDebuggerAttach>
